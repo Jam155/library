@@ -1,24 +1,20 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import './assets/css/book.css';
+import './components/Book';
+import Book from "./components/Book";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <h1>Corofides' Library</h1>
       </header>
+      <main>
+        <Book book={{title: "Ancillary Sword", author: "Ann Leckie", isbn: "0123456789"}}/>
+        <Book book={{title: "Ancillary Sword", author: "Ann Leckie", isbn: "0123456789"}}/>
+      </main>
     </div>
   );
 }

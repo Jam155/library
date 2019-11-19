@@ -1,0 +1,37 @@
+.book {
+    padding: 16px;
+    width: 256px;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 12px;
+    -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.47);
+    -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.47);
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.47);
+    border-radius: 10px;
+}
+
+.book__image {
+     width: 100%;
+     margin-bottom: 0.5em;
+}
+
+.book__title {
+     font-size: 2em;
+     margin-bottom: 0.5rem;
+}
+
+.book__author {
+     font-size: 1.5em;
+}
+
+.book__isbn {
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.book__isbn:before {
+     content: 'ISBN';
+     margin-right: 0.5em;
+}
+
+
+
